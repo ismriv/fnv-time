@@ -13,8 +13,8 @@ $ npm install fnv-time --save
 ## Usage
 
 ```javascript
-var fnv = require('fnv-time');
-var hash = fnv();
+var fnvtime = require('fnv-time');
+var hash = fnvtime();
 
 console.log(hash('hello world!'));
 // base36(Date.now()) + 782ded88cd5a2672
@@ -22,7 +22,7 @@ console.log(hash('hello world!'));
 console.log(hash('hello world!', new Date('2014-12-17T00:45:32.599Z')));
 // i3rz9ttj782ded88cd5a2672
 
-var prefixedHash = fnv('h');
+var prefixedHash = fnvtime('h');
 console.log(prefixedHash('hello world!', new Date('2014-12-17T00:45:32.599Z')));
 // hi3rz9ttj782ded88cd5a2672
 ```
