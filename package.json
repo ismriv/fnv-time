@@ -1,0 +1,36 @@
+{
+  "name": "fnv-time",
+  "version": "0.1.0",
+  "description": "Time-dependent unique ID generator based on the FNV-1a Hashing algorithm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ismriv/fnv-time"
+  },
+  "keywords": [
+    "hash",
+    "checksum",
+    "fnv",
+    "fnv1a",
+    "time",
+    "timestamp",
+    "uid",
+    "unique id"
+  ],
+  "author": "Ismael Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismriv/fnv-time/issues"
+  },
+  "homepage": "https://github.com/ismriv/fnv-time",
+  "dependencies": {
+    "fnv-plus": "1.2.x"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
+  }
+}
